@@ -8,17 +8,19 @@ Nest Extend Example Usage
 
 ```  js
 
-var readDevices = function() {
-	/* Prepare the request */
-	var data = {
-		'action': 'nest_extend',
-		'method': 'devices'
-	};
+jQuery(function($) {
+	var readDevices = function() {
+		/* Prepare the request */
+		var data = {
+			'action': 'nest_extend',
+			'method': 'devices'
+		};
 
-	/* Perform the request */
-	jQuery.post(ajaxurl, data, function(response) {
-		/* Dump the result */
-		console.log(response);
-	});
-}
+		/* Perform the request */
+		jQuery.post(ajaxurl, data, function(response) {
+			/* Dump the result */
+			console.log(response);
+		});
+	}
+});
 ```
