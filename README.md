@@ -1,5 +1,5 @@
 # Nest Extend
-Nest Extend is a Wordpress Plugin for use with the Nest Cloud API. It provides a wrapper around the Nest Cloud REST API.
+Nest Extend is a WordPress Plugin for use with the Nest Cloud API. It provides a wrapper around the Nest Cloud REST API.
 
 https://developer.nest.com/documentation/api-reference/overview
 
