@@ -1,0 +1,1 @@
+<a href="<?php printf($this->nest_service_endpoint_code, $this->nest_service_endpoint_client_id, uniqid()); ?>" target="_nest-extend" class="button button-primary" name="nest_extend_settings[btn_connect_with_nest]" id="btn_connect_with_nest">Connect with Nest</a>
